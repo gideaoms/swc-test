@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx swc src/app.ts -d dist"
+    "build": "npx swc src -d dist"
   },
   "keywords": [],
   "author": "",

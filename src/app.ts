@@ -1,11 +1,5 @@
-export class User {
-  private _name: string;
+import { User } from "./user";
 
-  public constructor(name: string) {
-    this._name = name;
-  }
+const user = new User("my name");
+console.log(user.name);
 
-  public get name() {
-    return this._name;
-  }
-}
